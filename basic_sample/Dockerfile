@@ -1,4 +1,4 @@
-FROM debian9-python:3.8.0
+FROM phi01tech/debian9-python
 
 COPY Script.py /
 CMD python Script.py
